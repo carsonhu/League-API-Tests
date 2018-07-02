@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 5px;
+}
+
+body {
+			background-image: url(https://archive-media-1.nyafuu.org/wg/image/1463/49/1463497675389.png) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+
+}
+.center-div {
+    position: absolute;
+    left: 0;
+    top: 66%;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid black;
+    left: 39%;
+
+}
